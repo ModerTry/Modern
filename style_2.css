@@ -190,7 +190,7 @@ section .container .user .imgBx img{
   }
 /*Responsive Start*/
 
-  @media screen and (max-width:768px) {
+  @media (max-width:768px) {
     .container{
              width: 100%;
              display:block;
