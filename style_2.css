@@ -399,6 +399,56 @@ section .container .user .imgBx img{
     text-decoration: none;
     color: #577eff;
 }
+/*Responsive Design Start*/
+@media screen and (max-width:768px) {
+	section{
+		width: 100%;
+		height: 100%;
+	}
+    .container{
+        width: 100%;
+		height: 100%;
+        display:block;
+        margin: auto;
+        padding-top: 50px;
+
+    }
+	.content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    
+    }
+	.container .user .imgBx{
+		display: none;
+	}
+	.container .login-container{
+        display:block;
+        margin: auto;
+        padding-top: 10px;
+        font-size: 19px;
+
+	}
+	.container .login-container .form-control{
+		display:block;
+        margin: auto;
+        padding-top: 10px;
+        font-size: 19px;
+		height: 100%;
+	}
+	.container .login-container button{
+		margin-bottom: 10px;
+
+	}
+	.container .login-container .signup{
+		text-align: center;
+		font-size: 19px;
+		margin: auto;
+	}
+
+}
+/*Registration Form End*/
 
 
 
