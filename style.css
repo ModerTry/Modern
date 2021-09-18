@@ -182,7 +182,7 @@ nav .wrapper{
     display: none;
   }
   #close-btn:checked ~ .btn.menu-btn{
-    display: block;
+    display: block;-
   }
   .nav-links li{
     margin: 15px 10px;
@@ -371,6 +371,7 @@ nav input{
     
     }
     .content-section{
+        padding-top:10px;
         float: none;
         width: 100%;
         display: block;
