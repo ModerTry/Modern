@@ -188,40 +188,39 @@ section .container .user .imgBx img{
   .signup a:hover{
 	text-decoration: underline;
   }
-/*Responsive Start*/-
+/*Responsive Start*/
 
   @media screen and (max-width:768px) {
     .container{
-        width: 80%;
-        display:block;
-        margin: auto;
-        padding-top: 50px;
-    
+             width: 80%;
+             display:block;
+             margin: auto;
+             padding-top: 50px;
     }
 	.content-section{
-        float: none;
-        width: 100%;
-        display: block;
-        margin: auto;
+             float: none;
+            width: 100%;
+            display: block;
+            margin: auto;
     
     }
 	.container .user .imgBx{
 		display: none;
 	}
+	  
 	.container .login_container{
-        display:block;
-        margin: auto;
-        padding-top: 15px;
-		text-align: center;
-        font-size: 19px;
-
+                  display:block;
+                  margin: auto;
+                  padding-top: 15px;
+	          text-align: center;
+                  font-size: 19px;
 	}
 	.container .login_container .input-field{
 		display:block;
-        margin: auto;
-        padding-top: 15px;
+                margin: auto;
+                padding-top: 15px;
 		text-align: center;
-        font-size: 19px;
+                font-size: 19px;
 		
 	}
 
