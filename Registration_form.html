@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style_2.css">
+    <link href="https://fonts.googleapis.com/css2?family=playfair+Display|Roboto:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <section>
+    <div class="container">
+        <div class="user signupBx">
+          <div class="login-container">
+            <form id="form" class="form">
+              <div class="header">
+                <h2>Create Account</h2>
+              </div>
+              <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" placeholder="florinpop17" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+              </div>
+              <div class="form-control">
+                <label for="username">Email</label>
+                <input type="email" placeholder="a@florin-pop.com" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+              </div>
+              <div class="form-control">
+                <label for="username">Password</label>
+                <input type="password" placeholder="Password" id="password" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+              </div>
+              <div class="form-control">
+                <label for="username">Password check</label>
+                <input type="password" placeholder="Confirm Password" id="password2" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+              </div>
+              <button>Submit</button>
+              <p class="signup">Already have an Account?<a href="login.html" onclick="toggleForm();"> LOGIN. </a></p>
+            </form>
+          </div>
+          <div class="imgBx">
+            <img src="image/students.jpeg">
+          </div>
+        </div>
+      </div>
+    </section>
+<script src="scripts/main.js"></script>
+<script src="scripts/login.js"></script>
+<script src="scripts/registration.js"></script>
+</body>
+</html>
