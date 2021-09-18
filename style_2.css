@@ -402,7 +402,6 @@ section .container .user .imgBx img{
 /*Responsive Design Start*/
 @media (max-width:768px) {
 	section{
-		width: 100%;
 		height: 100%;
 	}
     .container{
