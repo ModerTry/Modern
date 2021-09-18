@@ -400,7 +400,7 @@ section .container .user .imgBx img{
     color: #577eff;
 }
 /*Responsive Design Start*/
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
 	section{
 		width: 100%;
 		height: 100%;
