@@ -401,15 +401,30 @@ section .container .user .imgBx img{
 }
 /*Responsive Design Start*/
 @media (max-width:768px) {
+	*{
+		background-color: #fff;
+	}
+	body{
+		align-items: center;
+		display: block;
+		background-color: #fff;
+	}
+	section{
+		display: block;
+		width: auto;
+		height: fit-content;
+	}
+
     .container{
-        width: 100%;
-		height: 100%;
         display:block;
         margin: auto;
         padding-top: 50px;
-
+    
     }
-	.content-section{
+    .header .h2{
+		text-align: right;
+	}
+	.logincontainer{
         float: none;
         width: 100%;
         display: block;
@@ -419,33 +434,57 @@ section .container .user .imgBx img{
 	.container .user .imgBx{
 		display: none;
 	}
-	.container .login-container{
+	.container .logincontainer{
         display:block;
         margin: auto;
-        padding-top: 10px;
         font-size: 19px;
 
 	}
-	.container .login-container .form-control{
+	.container .logincontainer .form_control{
 		display:block;
         margin: auto;
-        padding-top: 10px;
         font-size: 19px;
-		height: 100%;
+		
 	}
-	.container .login-container button{
-		margin-bottom: 10px;
+	
+.form_control label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
 
-	}
-	.container .login-container .signup{
-		text-align: center;
-		font-size: 19px;
-		margin: auto;
-	}
+.form_control input {
+	display: block;
+	font-size: 16px;
+	width: 50%;
+	height: 100%;
+    font-weight: 300;
+}	
+.header {
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+}
+.header h2 {
+        font-size: 22px;
+        font-weight: 600;
+		text-align: start;
+        text-transform: uppercase;
+		letter-spacing: 0.1px;
+}
+.form button {
+     text-align: center;
+	display: block;
+    font-weight: 500;
+	padding: 12 12px;
+	margin-top: 10px;
+	height: 50px;
+	width: 120px; 
+}
+.form button:hover{
+	background-color: brown;
+}
 
 }
-/*Registration Form End*/
-
+/*Responsive End*/
 
 
 
